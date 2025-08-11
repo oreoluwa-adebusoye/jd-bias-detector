@@ -1,0 +1,6 @@
+streamlit~=1.48.0
+pyyaml~=6.0.2
+pypdf~=5.9.0
+docx2txt~=0.9
+
+transformers~=4.55.0

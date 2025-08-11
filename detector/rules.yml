@@ -1,0 +1,45 @@
+categories:
+  gender_coded:
+    weight: 1.0
+    terms:
+      - phrase: "rockstar"
+        suggest: "skilled"
+        note: "May signal masculine-coded culture; focus on skills."
+      - phrase: "ninja"
+        suggest: "expert"
+      - phrase: "dominant"
+        suggest: "leading"
+      - phrase: "aggressive"
+        suggest: "proactive"
+  age_coded:
+    weight: 1.2
+    terms:
+      - phrase: "young"
+        suggest: "early-career"  # if truly needed; otherwise remove
+      - phrase: "digital native"
+        suggest: "comfortable with digital tools"
+      - phrase: "recent graduate only"
+        suggest: "open to all experience levels"
+  ableist:
+    weight: 1.1
+    terms:
+      - phrase: "able-bodied"
+        suggest: "—"  # remove unless essential function requires it
+      - phrase: "walk"
+        suggest: "move"  # only if job-essential; otherwise remove
+      - phrase: "fast-paced environment"
+        suggest: "dynamic environment (with sustainable workload)"
+  immigration_coded:
+    weight: 1.2
+    terms:
+      - phrase: "native English speaker"
+        suggest: "proficient in written and spoken English"
+      - phrase: "US-born"
+        suggest: "—"
+  elitism:
+    weight: 0.8
+    terms:
+      - phrase: "top-tier school"
+        suggest: "relevant experience or equivalent skills"
+      - phrase: "Ivy League"
+        suggest: "—"
