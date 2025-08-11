@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Logs
+*.log
+
+# Test & coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Ignore compiled model/data files
+*.pkl
+*.joblib
